@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_latest"
+        android:icon="@drawable/latest"
+        android:title="@string/title_latest" />
+
+    <item
+        android:id="@+id/navigation_top"
+        android:icon="@drawable/top"
+        android:title="@string/title_top" />
+
+    <item
+        android:id="@+id/navigation_hot"
+        android:icon="@drawable/hot_icon"
+        android:title="@string/title_hot" />
+    <item
+        android:id="@+id/navigation_random"
+        android:icon="@drawable/random"
+        android:title="@string/title_random" />
+
+</menu>

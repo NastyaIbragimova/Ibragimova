@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+
+    app:startDestination="@+id/navigation_latest">
+
+    <fragment
+        android:id="@+id/navigation_latest"
+        android:name="com.example.gifloader.ui.latest.LatestFragment"
+        android:label="@string/title_latest"
+        tools:layout="@layout/fragment_latest" />
+
+    <fragment
+        android:id="@+id/navigation_top"
+        android:name="com.example.gifloader.ui.top.TopFragment"
+        android:label="@string/title_top"
+        tools:layout="@layout/fragment_top" />
+
+    <fragment
+        android:id="@+id/navigation_hot"
+        android:name="com.example.gifloader.ui.hot.HotFragment"
+        android:label="@string/title_hot"
+        tools:layout="@layout/fragment_hot" />
+    <fragment
+        android:id="@+id/navigation_random"
+        android:name="com.example.gifloader.ui.random.RandomFragment"
+        android:label="@string/title_random"
+        tools:layout="@layout/fragment_random" />
+
+</navigation>
